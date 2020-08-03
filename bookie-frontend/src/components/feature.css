@@ -1,0 +1,23 @@
+.react-slick-item {
+  padding: 1rem;
+  display: flex !important;
+  justify-content: center;
+}
+
+.feature {
+  --feature-width: 40rem;
+  --feature-height: 32rem;
+  height: var(--feature-height);
+  width: var(--feature-width);
+}
+.feature .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.feature p {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
