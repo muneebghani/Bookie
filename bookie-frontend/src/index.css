@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap");
+@import "~antd/dist/antd.css";
+#root {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shadow {
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+:root {
+  --primary: #232026;
+  --primary-faded: #b8b8b8;
+  --white: #fff;
+  --black: #000;
+  --dark-grey: #101010;
+  --light-grey: #f1f6fc;
+  --dots: #1273eb;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-primary-faded {
+  background-color: var(--primary-faded);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-dark-grey {
+  background-color: var(--dark-grey);
+}
+.bg-light-grey {
+  background-color: var(--light-grey);
+}
+
+.primary {
+  color: var(--primary) !important;
+}
+
+.primary-faded {
+  color: var(--primary-faded) !important;
+}
+.white {
+  color: var(--white) !important;
+}
+.black {
+  color: var(--black) !important;
+}
+.dark-grey {
+  color: var(--dark-grey) !important;
+}
+.light-grey {
+  color: var(--light-grey) !important;
+}
+
+div a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+div p {
+  margin-bottom: 0px;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+p.heading-large {
+  color: inherit;
+  line-height: inherit;
+  font-size: 5rem;
+  font-weight: 900;
+}
+p.heading-semi-large {
+  line-height: inherit;
+  color: inherit;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+p.heading-primary {
+  line-height: inherit;
+  color: inherit;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+p.heading-secondary {
+  line-height: inherit;
+  color: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p.text-primary {
+  line-height: inherit;
+  color: inherit;
+  font-size: 1.6rem;
+}
+p.text-secondary {
+  line-height: inherit;
+  color: inherit;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 767px) {
+  p.heading-large {
+    font-size: 3rem;
+  }
+  p.heading-semi-large {
+    font-size: 2.5rem;
+  }
+  p.heading-primary {
+    font-size: 3rem;
+  }
+  p.heading-secondary {
+    font-size: 2.2rem;
+  }
+
+  p.text-primary {
+    font-size: 1.4rem;
+  }
+  p.text-secondary {
+    font-size: 1rem;
+  }
+}
