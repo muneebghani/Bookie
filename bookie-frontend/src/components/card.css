@@ -1,0 +1,29 @@
+.book-card {
+  display: flex;
+}
+
+.book-card .image {
+  --card-width: 20rem;
+  --card-height: 30rem;
+  height: var(--card-height);
+  width: var(--card-width);
+  border-radius: 1.2rem;
+}
+
+.book-card svg {
+  font-size: 2rem;
+}
+.book-card .body {
+  padding-left: 2rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-card .actions > * {
+  margin-right: 1rem;
+}
+.book-card .body > * {
+  margin-bottom: 1rem;
+}
