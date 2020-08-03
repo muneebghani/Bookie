@@ -1,0 +1,34 @@
+.sidebar {
+  margin-left: 0;
+}
+
+
+.sidebar-section {
+  padding: 3rem;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-section > p {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.sidebar-section .active {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.sidebar-link {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+}
+.sidebar-link > * {
+  margin-left: 1rem;
+}

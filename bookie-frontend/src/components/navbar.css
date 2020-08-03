@@ -1,0 +1,31 @@
+.navbar {
+  --nav-height: 6rem;
+  height: var(--nav-height);
+}
+
+.nav-search {
+  padding: 1rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  color: black;
+  background: #e4e4e4;
+}
+
+
+.nav-search::placeholder {
+  color: black;
+  font-size: inherit;
+}
+
+.nav-action {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-action > * {
+  margin-right: 1rem;
+}
