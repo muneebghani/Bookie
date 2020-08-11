@@ -14,6 +14,8 @@ const BookSchema = new Schema({
   isDeleted: { type: Boolean, default: false },
   approved: { type: Boolean, default: false },
   rent: { type: Boolean, default: false },
+  sale: { type: Boolean, default: false },
+  both: { type: Boolean, default: false },
   rentPrice: Number,
   entryDate: { type: Date, default: Date.now },
   user: { type: Schema.Types.ObjectId, ref: "user" },

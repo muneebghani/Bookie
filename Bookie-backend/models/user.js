@@ -17,9 +17,14 @@ const UserSchema = new Schema({
   entryDate: { type: Date, default: Date.now },
   isVerified: { type: Boolean, default: false },
   token: { type: String, default: "" },
+  userTypeId:String,
   wishlist: [{ type: Schema.Types.ObjectId, ref: "book" }],
 });
 
 const UserModel = model("user", UserSchema);
 
 module.exports = { UserSchema, UserModel };
+
+
+
+
